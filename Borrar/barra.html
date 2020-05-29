@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="barra" id="barra">
+        <div class="marca"></div><div class="marca"></div><div class="marca"></div><div class="marca"></div><div class="marca"></div><div class="marca"></div><div class="marca"></div><div class="marca"></div><div class="marca"></div>
+        <div class="valor"></div>
+    </div>
+
+    <input type="text" id="debug">
+</body>
+
+<style>
+
+    .barra{
+        width: 80%;
+        height: 50px;
+        border: 2px #00026c solid;
+        transform: skewX(-20deg);
+        background-position: left;
+        background-size: 20px 0px;
+        margin: 20px
+    }
+    .valor{
+        background-color: #cffb00;
+        width: 75%;
+        height: 100%;
+        position: absolute;
+        
+        top: 0;
+        z-index: 1;
+        transition: width 1s ease;
+    }
+    .marca{
+        width: 10%;
+        height: 20px;
+        box-sizing: border-box;
+        display: inline-block;
+        border-right: 2px #00026c solid;
+        z-index: 32;
+        position: relative;
+    }
+</style>
+<script src="barra.js"></script>
+<script>
+
+</script>
+</html>

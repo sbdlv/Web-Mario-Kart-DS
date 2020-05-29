@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="karts">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="kart" type="kart" maxOccurs="unbounded"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="kart">
+        <xs:sequence>
+            <xs:element name="propietario" type="xs:string"></xs:element>
+            <xs:element name="nombre" type="xs:string"></xs:element>
+            <xs:element name="velocidad" type="xs:integer"></xs:element>
+            <xs:element name="aceleracion" type="xs:integer"></xs:element>
+            <xs:element name="peso" type="xs:integer"></xs:element>
+            <xs:element name="manejo" type="xs:integer"></xs:element>
+            <xs:element name="drift" type="xs:integer"></xs:element>
+            <xs:element name="items" type="xs:integer"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

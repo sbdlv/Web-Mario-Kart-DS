@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Karts - Mario Kart DS</title>
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="./bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"> 
+    <link rel="icon" href="icon.png" type="image/png" sizes="32x32"> 
+</head>
+
+<body class="h-100">
+    <nav class="navbar navbar-expand-sm">
+        <img class="navbar-brand" src="img/mkds_logo.svg" style="height: 40px;" alt="">
+        <ul class="navbar-nav ml-auto ">
+            <li class="nav-item">
+                <a href="" class="nav-link">MARIO KART DS</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">PERSONAJES</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">KARTS</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">CIRCUITOS</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row p-5">
+            <!--Personajes-->
+            <div class="col-lg-4 col-xs-12">
+                <h2 class="kartSeccion">PERSONAJES</h2>
+                <div class="row mx-auto">
+                    <button id="btnPMario" class="btnPersonaje m-2" onclick="cambiarPersonaje(event)" value="Mario"></button>
+                    <button href="" id="btnPLuigi" class="btnPersonaje  m-2" onclick="cambiarPersonaje(event)" value="Luigi"></button>
+                    <button href="" id="btnPPeach" class="btnPersonaje  m-2" onclick="cambiarPersonaje(event)" value="Peach"></button>
+                    <button href="" id="btnPWario" class="btnPersonaje  m-2" onclick="cambiarPersonaje(event)" value="Wario"></button>
+                    <button href="" id="btnPWaluigi" class="btnPersonaje  m-2" onclick="cambiarPersonaje(event)" value="Waluigi"></button>
+                    <button href="" id="btnPHuesitos" class="btnPersonaje  m-2" onclick="cambiarPersonaje(event)" value="Dry Bones"></button>
+                    <button href="" id="btnPShyGuy" class="btnPersonaje  m-2" onclick="cambiarPersonaje(event)" value="Shy Guy"></button>
+                    <button href="" id="btnPBowser" class="btnPersonaje  m-2" onclick="cambiarPersonaje(event)" value="Bowser"></button>
+                    <button href="" id="btnPDonkeyKong" class="btnPersonaje  m-2" onclick="cambiarPersonaje(event)" value="Donkey Kong"></button>
+                    <button href="" id="btnPDaisy" class="btnPersonaje  m-2" onclick="cambiarPersonaje(event)" value="Daisy"></button>
+                    <button href="" id="btnPYoshi" class="btnPersonaje  m-2" onclick="cambiarPersonaje(event)" value="Yoshi"></button>
+                    <button href="" id="btnPToad" class="btnPersonaje  m-2" onclick="cambiarPersonaje(event)" value="Toad"></button>
+                    <button href="" id="btnPROB" class="btnPersonaje  m-2" onclick="cambiarPersonaje(event)" value="ROB"></button>
+                </div>
+            </div>
+            <!--KARTS Y 3D-->
+            <div class="col-md-12 col-lg-8">
+                <div class="row mx-auto">
+                    <!--Karts-->
+                    <div class="col-xs-12 col-md-4">
+                        <h2 class="kartSeccion">KARTS</h2>
+                        <div class="col-12" id="karts">
+                        </div>
+                    </div>
+                    <!--3D-->
+                    <div class="col-xs-12 col-lg-8">
+                        <h2 class="kartSeccion">PREVIEW</h2>
+                        <div class="col-12" id="visor3D">
+                            <canvas id="render3D" class="mx-auto d-block mt-0 mb-3"></canvas>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-xs-12">
+                                <h2 class="tituloValores">VELOCIDAD</h2>
+                                <div class="barra w-100">
+                                    <div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca"></div>
+                                    <div id="vvelocidad" class="valor" value="50"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xs-12">
+                                <h2 class="tituloValores">ACELERACIÓN</h2>
+                                <div class="barra w-100">
+                                    <div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca"></div>
+                                    <div id="vaceleracion" class="valor" value="50"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xs-12">
+                                <h2 class="tituloValores">PESO</h2>
+                                <div class="barra w-100">
+                                    <div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca"></div>
+                                    <div id="vpeso" class="valor" value="50"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xs-12">
+                                <h2 class="tituloValores">MAENJO</h2>
+                                <div class="barra w-100">
+                                    <div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca"></div>
+                                    <div id="vmanejo" class="valor" value="50"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xs-12">
+                                <h2 class="tituloValores">DRIFT</h2>
+                                <div class="barra w-100">
+                                    <div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca"></div>
+                                    <div id="vdrift" class="valor" value="50"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xs-12 mx-auto">
+                                <h2 class="tituloValores">ITEMS</h2>
+                                <div class="barra w-100">
+                                    <div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca">
+                                    </div><div class="marca"></div>
+                                    <div id="vitems" class="valor" value="50"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/karts.js"></script>
+<script src="js/babylon.js"></script>
+<script src="js/babylon.glTF2FileLoader.min.js"></script>
+<script src="js/3d.js"></script>
+
+</html>
