@@ -1,4 +1,4 @@
-const RUTA_XML_KARTS = "karts.xml";
+const RUTA_XML_KARTS = "xml/karts.xml";
 var velocidad = document.getElementById("vvelocidad");
 var aceleracion = document.getElementById("vaceleracion");
 var peso = document.getElementById("vpeso");
