@@ -22,6 +22,11 @@
     bottom: 5vh;
     width: 100%;
 }
+#botonFleachaPortada{
+    background: none;
+    border:none;
+    color: white;
+}
 #flechaPortada{
     
     font-size: 5vh;
@@ -35,13 +40,17 @@
     width: 20vw;
 }
 .tarjetaMenu{
-    border: 2px solid wheat;
+    border: 2px solid rgba(255, 255, 255, 0.4);
     padding: 20px;
     transition: background-color 0.5s;
+    text-decoration: none;
+    color: white;
 }
+
 .tarjetaMenu:hover{
-    background-color: rgba(255, 255, 255, 0.1)
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
 }
 .tituloTarjetaMenu{
-    font-size: ;
+    font-size: 3rem;
 }

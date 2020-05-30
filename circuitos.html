@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="./bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/css/circuitos.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm">
+        <img class="navbar-brand" src="img/mkds_logo.svg" style="height: 40px;" alt="">
+        <ul class="navbar-nav ml-auto ">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">INICIO</a>
+            </li>
+            <li class="nav-item">
+                <a href="personajes.html" class="nav-link">PERSONAJES</a>
+            </li>
+            <li class="nav-item">
+                <a href="karts.html" class="nav-link">KARTS</a>
+            </li>
+            <li class="nav-item">
+                <a href="circuitos.html" class="nav-link">CIRCUITOS</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 text-center p-4">
+                <button id="btnChampiñon" class="botonCopa ml-md-5 mr-md-5 mb-sm-5 mb-md-0 ml-sm-1 mr-sm-0" value="Champiñón"></button>
+                <button id="btnFlor" class="botonCopa ml-md-5 mr-md-5 mb-sm-5 mb-md-0 ml-sm-1 mr-sm-0" value="Flor"></button>
+                <button id="btnEstrella" class="botonCopa ml-md-5 mr-md-5 mb-sm-5 mb-md-0 ml-sm-1 mr-sm-0" value="Estrella"></button>
+                <button id="btnEspecial" class="botonCopa ml-md-5 mr-md-5 mb-sm-5 mb-md-0 ml-sm-1 mr-sm-0" value="Especial"></button>
+                <button id="btnCaparazon" class="botonCopa ml-md-5 mr-md-5 mb-sm-5 mb-md-0 ml-sm-1 mr-sm-0" value="Caparazón"></button>
+                <button id="btnPlatano" class="botonCopa ml-md-5 mr-md-5 mb-sm-5 mb-md-0 ml-sm-1 mr-sm-0" value="Plátano"></button>
+                <button id="btnHoja" class="botonCopa ml-md-5 mr-md-5 mb-sm-5 mb-md-0 ml-sm-1 mr-sm-0" value="Hoja"></button>
+                <button id="btnCentella" class="botonCopa ml-md-5 mr-md-5 mb-sm-5 mb-md-0 ml-sm-1 mr-sm-0" value="Centella"></button>
+            </div>
+            <div id="seccionCircuitos" class="col-md-12 text-center p-4"></div>
+            <div id="seccionCirucito" class="col-md-12 p-5">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4 text-center">
+                        <h2 id="nombreCircuito"></h2>
+                        <img src="" alt="" id="imagenCircuito">
+                    </div>
+                    <div class="col-sm-12 col-md-8">
+                        <p id="descripcionCircuito" class="pt-5"></p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="/js/circuitos.js"></script>
+</body>
+</html>

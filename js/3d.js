@@ -2,10 +2,15 @@ var canvas = document.getElementById("render3D"); // Get the canvas element
 
 var engine = new BABYLON.Engine(canvas, true); // Generate the BABYLON 3D engine
 
-var camera, test, miModelo2;
-var nombre;
+var camera, test;
+//var nombre;
 BABYLON.SceneLoader.ShowLoadingScreen = false; //Quitar pantalla de carga
+
 /******* Add the create scene function ******/
+/**
+ * Carga el kart parametrizado en la escena.
+ * @param {String} nombre el nobre del kart a cargar.
+ */
 var createScene = function(nombre) {
     if (nombre == null) {
         nombre = "Standard MR";

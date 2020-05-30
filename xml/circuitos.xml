@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<circuitos>
+    <circuito>
+        <copa>Champiñón</copa>
+        <nombre>Circuito en 8</nombre>
+        <descripcion>El Circuito en 8 es el primer circuito de carreras de la Mushroom Cup en Mario Kart DS, así como la ubicación de la ceremonia de premiación que se celebra después de cualquier copa. La pista de carreras se asemeja a un 8. 
+            Es comparable al circuito Luigi de muchos otros juegos de Mario Kart, ya que es simple, directo y sin atajos. 
+            En Super Smash Bros. Brawl y Super Smash Bros. para Wii U, hay un nivel temático de Mario Kart titulado "Mario Circuit" que tiene un diseño similar al Circuito en 8. El escenario vuelve a aparecer bajo el nombre de "Circuito de figura 8" en Super Smash Bros. Ultimate.</descripcion>
+        <imagen>MKDS_Figure_8_Circuit_Course_Icon.png</imagen>
+    </circuito>
+    <circuito>
+        <copa>Champiñón</copa>
+        <nombre>Cataratas de Yoshi</nombre>
+        <descripcion></descripcion>
+        <imagen>MKDS_Yoshi_Falls_Course_Icon.png</imagen>
+    </circuito>
+    <circuito>
+        <copa>Champiñón</copa>
+        <nombre>Playa Cheep Cheep</nombre>
+        <descripcion></descripcion>
+        <imagen>MKDS_Cheep_Cheep_Beach_Course_Icon.png</imagen>
+    </circuito>
+    <circuito>
+        <copa>Champiñón</copa>
+        <nombre>Mansión de Luigi</nombre>
+        <descripcion>MKDS_Luigi's_Mansion_Course_Icon.png</descripcion>
+        <imagen>MKDS_Luigi's_Mansion_Course_Icon.png</imagen>
+    </circuito>
+    
+    <circuito>
+        <copa>Flor</copa>
+        <nombre>Desierto Sol-Sol</nombre>
+        <descripcion></descripcion>
+        <imagen>MKDS_Desert_Hills_Course_Icon.png</imagen>
+    </circuito>
+    <circuito>
+        <copa>Flor</copa>
+        <nombre>Ciudad Delfino</nombre>
+        <descripcion></descripcion>
+        <imagen>MKDS_Delfino_Square_Course_Icon.png</imagen>
+    </circuito>
+    <circuito>
+        <copa>Flor</copa>
+        <nombre>Pinball Waluigi</nombre>
+        <descripcion></descripcion>
+        <imagen>MKDS_Waluigi_Pinball_Course_Icon.png</imagen>
+    </circuito>
+    <circuito>
+        <copa>Flor</copa>
+        <nombre>Colinas Champiñón</nombre>
+        <descripcion></descripcion>
+        <imagen>MKDS_Shroom_Ridge_Course_Icon.png</imagen>
+    </circuito>
+
+    <circuito>
+        <copa>Estrella</copa>
+        <nombre>DK Alpino</nombre>
+        <descripcion></descripcion>
+        <imagen>MKDS_DK_Pass_Course_Icon.png</imagen>
+    </circuito>
+    <circuito>
+        <copa>Estrella</copa>
+        <nombre>Reloj Tic-Tac</nombre>
+        <descripcion></descripcion>
+        <imagen>MKDS_Tick-Tock_Clock_Course_Icon.png</imagen>
+    </circuito>
+    <circuito>
+        <copa>Estrella</copa>
+        <nombre>Circuito Mario</nombre>
+        <descripcion></descripcion>
+        <imagen>MKDS_Mario_Circuit_Course_Icon.png</imagen>
+    </circuito>
+    <circuito>
+        <copa>Estrella</copa>
+        <nombre>Fortaleza Aérea</nombre>
+        <descripcion></descripcion>
+        <imagen>MKDS_Airship_Fortress_Course_Icon.png</imagen>
+    </circuito>
+
+    <circuito>
+        <copa>Especial</copa>
+        <nombre>Estadio Wario</nombre>
+        <descripcion></descripcion>
+        <imagen>MKDS_Wario_Stadium_Course_Icon.png</imagen>
+    </circuito>    
+    <circuito>
+        <copa>Especial</copa>
+        <nombre>Jardín de Peach</nombre>
+        <descripcion></descripcion>
+        <imagen>MKDS_Peach_Gardens_Course_Icon.png</imagen>
+    </circuito>    
+    <circuito>
+        <copa>Especial</copa>
+        <nombre>Castillo de Bowser</nombre>
+        <descripcion></descripcion>
+        <imagen>MKDS_Bowser_Castle_Course_Icon.png</imagen>
+    </circuito>    
+    <circuito>
+        <copa>Especial</copa>
+        <nombre>Senda Arco Iris</nombre>
+        <descripcion></descripcion>
+        <imagen>MKDS_Rainbow_Road_Course_Icon.png</imagen>
+    </circuito>    
+
+    <circuito>
+        <copa>Caparazón</copa>
+        <nombre>SNES Circuito Mario 1</nombre>
+        <descripcion></descripcion>
+        <imagen>MKDS_SNES_Mario_Circuit_1_Course_Icon.png</imagen>
+    </circuito>
+    <circuito>
+        <copa>Caparazón</copa>
+        <nombre>N64 Granja Mu-Mu</nombre>
+        <descripcion></descripcion>
+        <imagen>MKDS_N64_Moo_Moo_Farm_Course_Icon.png</imagen>
+    </circuito>
+    <circuito>
+        <copa>Caparazón</copa>
+        <nombre>GBA Circuito Peach</nombre>
+        <descripcion></descripcion>
+        <imagen>MKDS_GBA_Peach_Circuit_Course_Icon.png</imagen>
+    </circuito>
+    <circuito>
+        <copa>Caparazón</copa>
+        <nombre>GCN Circuito de Luigi</nombre>
+        <descripcion></descripcion>
+        <imagen>MKDS_GCN_Luigi_Circuit_Course_Icon.png</imagen>
+    </circuito>
+
+    <circuito>
+        <copa>Plátano</copa>
+        <nombre>SNES Prado Rosquilla 1</nombre>
+        <descripcion></descripcion>
+        <imagen>MKDS_SNES_Donut_Plains_1_Course_Icon.png</imagen>
+    </circuito>
+    <circuito>
+        <copa>Plátano</copa>
+        <nombre>N64 Circuito Nevado</nombre>
+        <descripcion></descripcion>
+        <imagen>MKDS_N64_Frappe_Snowland_Course_Icon.png</imagen>
+    </circuito>
+    <circuito>
+        <copa>Plátano</copa>
+        <nombre>GBA Castillo de Bowser 2</nombre>
+        <descripcion></descripcion>
+        <imagen>MKDS_GBA_Bowser_Castle_2_Course_Icon.png</imagen>
+    </circuito>
+    <circuito>
+        <copa>Plátano</copa>
+        <nombre>GCN Parque Bebé </nombre>
+        <descripcion></descripcion>
+        <imagen>MKDS_GCN_Baby_Park_Course_Icon.png</imagen>
+    </circuito>
+
+    <circuito>
+        <copa>Hoja</copa>
+        <nombre>SNES Playa Koopa 2</nombre>
+        <descripcion></descripcion>
+        <imagen>MKDS_SNES_Koopa_Beach_2_Course_Icon.png</imagen>
+    </circuito>
+    <circuito>
+        <copa>Hoja</copa>
+        <nombre>N64 Monte Chocolate</nombre>
+        <descripcion></descripcion>
+        <imagen>MKDS_N64_Choco_Mountain_Course_Icon.png</imagen>
+    </circuito>
+    <circuito>
+        <copa>Hoja</copa>
+        <nombre>GBA Circuito Luigi</nombre>
+        <descripcion></descripcion>
+        <imagen>MKDS_GCN_Luigi_Circuit_Course_Icon.png</imagen>
+    </circuito>
+    <circuito>
+        <copa>Hoja</copa>
+        <nombre>GCN Autopista Champiñón</nombre>
+        <descripcion></descripcion>
+        <imagen>MKDS_GCN_Mushroom_Bridge_Course_Icon.png</imagen>
+    </circuito>
+    
+    <circuito>
+        <copa>Centella</copa>
+        <nombre>SNES Isla Chocolate 2</nombre>
+        <descripcion></descripcion>
+        <imagen>MKDS_SNES_Choco_Island_2_Course_Icon.png</imagen>
+    </circuito>
+    <circuito>
+        <copa>Centella</copa>
+        <nombre>N64 Muelle Embrujado</nombre>
+        <descripcion></descripcion>
+        <imagen>MKDS_N64_Banshee_Boardwalk_Course_Icon.png</imagen>
+    </circuito>
+    <circuito>
+        <copa>Centella</copa>
+        <nombre>GBA Jardín Celeste</nombre>
+        <descripcion></descripcion>
+        <imagen>MKDS_GBA_Sky_Garden_Course_Icon.png</imagen>
+    </circuito>
+    <circuito>
+        <copa>Centella</copa>
+        <nombre>GCN Circuito Yoshi</nombre>
+        <descripcion></descripcion>
+        <imagen>MKDS_GCN_Yoshi_Circuit_Course_Icon.png</imagen>
+    </circuito>
+
+</circuitos>
