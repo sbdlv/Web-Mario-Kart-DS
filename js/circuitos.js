@@ -8,12 +8,17 @@ const NOMBRE_CIRCUITO = document.getElementById("nombreCircuito");
 const IMAGEN_CIRCUITO = document.getElementById("imagenCircuito");
 const DESCRIPCION_CIRCUITO = document.getElementById("descripcionCircuito");
 
+var botonesCopas = document.getElementsByClassName("botonCopa");
 //Funciones para los botoes de las copas
-for (let boton of document.getElementsByClassName("botonCopa")) {
+for (let boton of botonesCopas) {
     boton.onclick = function () {
+        document.getElementsByClassName("copaActiva")[0].classList.remove("copaActiva");
+        boton.classList.add("copaActiva");
         consultarCopa(event.target.value);
+
     }
 }
+
 
 //XML
 //Realizar peticion de los datos XML
@@ -22,7 +27,7 @@ xhttp.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
         datosXML = this.responseXML;
         //Valores principales 
-
+        consultarCopa("Champiñón");
     }
 };
 xhttp.open("GET", RUTA_XML_CIRCUITOS, true);
@@ -44,19 +49,28 @@ function consultarCopa(copa) {
     //Recorremos los resultados y generamos los elementos <img> de los karts
     while (result) {
         let nombre = result.getElementsByTagName("nombre")[0].innerHTML;
-        console.log(nombre);
 
         let imagen = result.getElementsByTagName("imagen")[0].innerHTML;
         let thumb = document.createElement("img");
         thumb.classList.add("imagenCircuito");
         thumb.classList.add("ml-4");
         thumb.classList.add("mr-4");
+        thumb.classList.add("pt-md-0");
+        thumb.classList.add("pb-md-0");
+        thumb.classList.add("pt-sm-2");
+        thumb.classList.add("pb-sm-2");
+        
 
         thumb.setAttribute("src", RUTA_IMAGENES_CIRCUITOS + imagen);
         thumb.value = nombre;
         //Función para más tarde controlar los clicks en las imagenes 
         thumb.onclick = function () {
+            let anteriorSeleccionado = document.getElementsByClassName("imagenCircuitoActiva")[0];
+            if (anteriorSeleccionado != null){
+                anteriorSeleccionado.classList.remove("imagenCircuitoActiva");
+            }
             cargarCircuito(consultarCircuito(nombre));
+            event.target.classList.add("imagenCircuitoActiva");
         }
         result = nodes.iterateNext(); //Siguiente resultado
         seccionCircuitos.appendChild(thumb);
@@ -80,7 +94,6 @@ function consultarCircuito(nombre) {
         let circuito = new Circuito(result.getElementsByTagName("nombre")[0].innerHTML,
             result.getElementsByTagName("imagen")[0].innerHTML,
             result.getElementsByTagName("descripcion")[0].innerHTML);
-        console.log(circuito);
 
         return circuito;
     }

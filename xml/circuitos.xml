@@ -1,23 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<circuitos>
+<circuitos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="circuitos.xsd">
     <circuito>
         <copa>Champiñón</copa>
         <nombre>Circuito en 8</nombre>
         <descripcion>El Circuito en 8 es el primer circuito de carreras de la Mushroom Cup en Mario Kart DS, así como la ubicación de la ceremonia de premiación que se celebra después de cualquier copa. La pista de carreras se asemeja a un 8. 
+            
             Es comparable al circuito Luigi de muchos otros juegos de Mario Kart, ya que es simple, directo y sin atajos. 
+            
             En Super Smash Bros. Brawl y Super Smash Bros. para Wii U, hay un nivel temático de Mario Kart titulado "Mario Circuit" que tiene un diseño similar al Circuito en 8. El escenario vuelve a aparecer bajo el nombre de "Circuito de figura 8" en Super Smash Bros. Ultimate.</descripcion>
         <imagen>MKDS_Figure_8_Circuit_Course_Icon.png</imagen>
     </circuito>
     <circuito>
         <copa>Champiñón</copa>
         <nombre>Cataratas de Yoshi</nombre>
-        <descripcion></descripcion>
+        <descripcion>Yoshi Falls es un circuito de carreras de Mario Kart DS, y es la segunda pista de la Mushroom Cup. La pista está ubicada en un valle con forma de cráter, rodeando un lago con tres cascadas conectadas al cuerpo de agua, cruzando la pista. Un gran huevo de Yoshi se encuentra en el centro del lago. Numerosos paneles de velocidad están ubicados en algunos lugares a lo largo del curso. Los puentes proporcionan una forma más segura de pasar, en lugar de atravesar las corrientes de la cascada, lo cual es un riesgo, debido a que estas  pueden empujar fuera del borde.
+
+            El circuito regresa como el segundo curso retro clásico en Mario Kart Wii para la Shell Cup, esta vez con gráficos mejorados, junto con la mayoría de los cursos de Mario Kart DS en Wii.
+            
+            Yoshi Falls es uno de los cursos más cortos en Mario Kart DS, junto con otras pistas bastante cortas como GCN Baby Park, N64 Moo Moo Farm, GBA Peach Circuit y SNES Mario Circuit 1. Es el curso de nitro más corto del juego. La descripción general de la pista es bastante similar a Luigi Circuit de Mario Kart Wii.</descripcion>
         <imagen>MKDS_Yoshi_Falls_Course_Icon.png</imagen>
     </circuito>
     <circuito>
         <copa>Champiñón</copa>
         <nombre>Playa Cheep Cheep</nombre>
-        <descripcion></descripcion>
+        <descripcion>Cheep Cheep Beach es el tercer circuito de la Mushroom Cup en Mario Kart DS y el tercer circuito de la Shell Cup en Mario Kart 8 y Mario Kart 8 Deluxe. Es una playa tropical que se parece a la isla Cheep-Cheep de Mario Kart: Super Circuit.
+            
+            El circuito es relativamente pequeño.
+
+            Las misiones 1-4 y 2-5 se llevan a cabo en este circuito.
+            </descripcion>
         <imagen>MKDS_Cheep_Cheep_Beach_Course_Icon.png</imagen>
     </circuito>
     <circuito>
@@ -26,29 +37,47 @@
         <descripcion>MKDS_Luigi's_Mansion_Course_Icon.png</descripcion>
         <imagen>MKDS_Luigi's_Mansion_Course_Icon.png</imagen>
     </circuito>
-    
+
     <circuito>
         <copa>Flor</copa>
         <nombre>Desierto Sol-Sol</nombre>
-        <descripcion></descripcion>
+        <descripcion>Desert Hills es el primer circuito de la Flower Cup en Mario Kart DS. Los elementos de la pista se basan en Desert Land de Super Mario Bros. 3. Los Pokey deambulan por el desierto y el Sol deja caer serpientes de fuego en la pista. Ambos elementos actúan como obstáculos en el curso. 
+
+            El curso también tiene giros más pronunciados y pendientes más intensas que las pistas anteriores en el juego, lo que plantea la dificultad para la Copa de Flores.
+            
+            El curso vuelve a aparecer como un curso retro en Mario Kart Wii. En ese juego es la primera pista de carreras de la Leaf Cup. Se rehizo con gráficos mejorados, como los otros circuitos de Mario Kart DS en Mario Kart Wii.</descripcion>
         <imagen>MKDS_Desert_Hills_Course_Icon.png</imagen>
     </circuito>
     <circuito>
         <copa>Flor</copa>
         <nombre>Ciudad Delfino</nombre>
-        <descripcion></descripcion>
+        <descripcion>Delfino Square es la segunda carrera de la Flower Cup en Mario Kart DS. Está inspirado en la Plaza Delfino de Super Mario Sunshine.
+
+            El circuito tiene lugar en parte de una plaza y el muelle. La característica principal de la pista es el puente levadizo antes del final del curso que conecta el muelle y la plaza. El puente sube y baja periódicamente durante la carrera. Piantas animan a los corredores en muchos sitios a lo largo de la pista.
+            
+            Delfino Square reaparece en Mario Kart Wii en la Banana Cup, con el diseño y la música exactamente igual, pero con gráficos actualizados.</descripcion>
         <imagen>MKDS_Delfino_Square_Course_Icon.png</imagen>
     </circuito>
     <circuito>
         <copa>Flor</copa>
         <nombre>Pinball Waluigi</nombre>
-        <descripcion></descripcion>
+        <descripcion>Waluigi Pinball es el tercer circuito de la Flower Cup en Mario Kart DS. Como su nombre lo indica, este curso tiene lugar en una máquina de pinball gigante con el tema de Waluigi y contiene muchas curvas cerradas.
+            
+            Poco después de que finalice la cuenta regresiva y comience la carrera, los pilotos se lanzan a la máquina de pinball. Después de eso, los corredores comienzan un descenso por la máquina, encontrando numerosos pinballs en el camino. Chocar con uno de estos hace que los conductores sean golpeados hacia atrás. Además, un corredor pierde cualquier artículo que pueda llevar. 
+
+Mientras los corredores están en el lanzador de pinball, son inmunes a todos los artículos, incluido Lightning. Más adelante en la pista, dentro del área de pinball, hay aletas y parachoques. Los parachoques empujan y aceleran a los conductores, pero las aletas, cuando se mueven, pueden hacer que se electrocuten y giren. Esta es la pista Nitro más larga del juego.
+        </descripcion>
         <imagen>MKDS_Waluigi_Pinball_Course_Icon.png</imagen>
     </circuito>
     <circuito>
         <copa>Flor</copa>
         <nombre>Colinas Champiñón</nombre>
-        <descripcion></descripcion>
+        <descripcion>Shroom Ridge es el circuito final de la Flower Cup en Mario Kart DS. La carrera se lleva a cabo en una carretera pública con tráfico y se situa en la cresta de montaña, de ahí el nombre. 
+
+            Durante aproximadamente la mitad del recorrido, el lado derecho no tiene barandilla y es una simple caída al vacio. 
+            
+            Shroom Ridge es el primer circuito en tener autos que se mueven en direcciones opuestas, en oposición a la misma dirección que en todas las carreras con vehiculos npc.
+            </descripcion>
         <imagen>MKDS_Shroom_Ridge_Course_Icon.png</imagen>
     </circuito>
 
@@ -82,25 +111,25 @@
         <nombre>Estadio Wario</nombre>
         <descripcion></descripcion>
         <imagen>MKDS_Wario_Stadium_Course_Icon.png</imagen>
-    </circuito>    
+    </circuito>
     <circuito>
         <copa>Especial</copa>
         <nombre>Jardín de Peach</nombre>
         <descripcion></descripcion>
         <imagen>MKDS_Peach_Gardens_Course_Icon.png</imagen>
-    </circuito>    
+    </circuito>
     <circuito>
         <copa>Especial</copa>
         <nombre>Castillo de Bowser</nombre>
         <descripcion></descripcion>
         <imagen>MKDS_Bowser_Castle_Course_Icon.png</imagen>
-    </circuito>    
+    </circuito>
     <circuito>
         <copa>Especial</copa>
         <nombre>Senda Arco Iris</nombre>
         <descripcion></descripcion>
         <imagen>MKDS_Rainbow_Road_Course_Icon.png</imagen>
-    </circuito>    
+    </circuito>
 
     <circuito>
         <copa>Caparazón</copa>
@@ -176,7 +205,7 @@
         <descripcion></descripcion>
         <imagen>MKDS_GCN_Mushroom_Bridge_Course_Icon.png</imagen>
     </circuito>
-    
+
     <circuito>
         <copa>Centella</copa>
         <nombre>SNES Isla Chocolate 2</nombre>

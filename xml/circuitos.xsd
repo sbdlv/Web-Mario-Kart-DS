@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="circuitos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="circuito" type="circuito" maxOccurs="unbounded"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="circuito">
+        <xs:sequence>
+            <xs:element name="copa" type="xs:string"></xs:element>
+            <xs:element name="nombre" type="xs:string"></xs:element>
+            <xs:element name="descripcion" type="xs:string"></xs:element>
+            <xs:element name="imagen" type="xs:string"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

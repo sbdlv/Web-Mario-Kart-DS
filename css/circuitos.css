@@ -6,6 +6,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     image-rendering: crisp-edges;
+    filter: grayscale(80%);
+    transition: filter 0.5s;
+}
+.botonCopa:hover{
+    filter: grayscale(0%);
+}
+.copaActiva{
+    filter: grayscale(0%);
 }
 
 #btnChampiñon{
@@ -36,11 +44,20 @@
 .imagenCircuito{
     height: 210px;
     image-rendering: crisp-edges;
+    cursor: pointer;
+    transition: filter 0.3s;
+}
+.imagenCircuito:hover{
+    filter:drop-shadow(0px 0px 10px white);
+}
+.imagenCircuitoActiva{
+    filter:drop-shadow(0px 0px 10px white);
 }
 #imagenCircuito{
     height: 310px;
     image-rendering: crisp-edges;
 }
-.imagenActiva{
-    
+
+#descripcionCircuito{
+    font-size: 18px;
 }
