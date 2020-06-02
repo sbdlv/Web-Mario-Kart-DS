@@ -1,53 +1,53 @@
 #btnPMario {
-    background-image: url("../img/personajes/mario.png");
+    background-image: url("/img/personajes/mario.png");
 }
 
 #btnPLuigi {
-    background-image: url("../img/personajes/Luigi.png");
+    background-image: url("/img/personajes/Luigi.png");
 }
 
 #btnPPeach {
-    background-image: url("../img/personajes/Peach.png");
+    background-image: url("/img/personajes/Peach.png");
 }
 
 #btnPWario {
-    background-image: url("../img/personajes/Wario.png");
+    background-image: url("/img/personajes/Wario.png");
 }
 
 #btnPWaluigi {
-    background-image: url("../img/personajes/Waluigi.png");
+    background-image: url("/img/personajes/Waluigi.png");
 }
 
 #btnPHuesitos {
-    background-image: url("../img/personajes/Huesitos.png");
+    background-image: url("/img/personajes/Huesitos.png");
 }
 
 #btnPShyGuy {
-    background-image: url("../img/personajes/ShyGuy.png");
+    background-image: url("/img/personajes/ShyGuy.png");
 }
 
 #btnPBowser {
-    background-image: url("../img/personajes/Bowser.png");
+    background-image: url("/img/personajes/Bowser.png");
 }
 
 #btnPDaisy {
-    background-image: url("../img/personajes/Daisy.png");
+    background-image: url("/img/personajes/Daisy.png");
 }
 
 #btnPYoshi {
-    background-image: url("../img/personajes/Yoshi.png");
+    background-image: url("/img/personajes/Yoshi.png");
 }
 
 #btnPToad {
-    background-image: url("../img/personajes/Toad.png");
+    background-image: url("/img/personajes/Toad.png");
 }
 
 #btnPROB {
-    background-image: url("../img/personajes/ROB.png");
+    background-image: url("/img/personajes/ROB.png");
 }
 
 #btnPDonkeyKong {
-    background-image: url("../img/personajes/DonkeyKong.png");
+    background-image: url("/img/personajes/DonkeyKong.png");
 }
 
 .btnPersonaje {

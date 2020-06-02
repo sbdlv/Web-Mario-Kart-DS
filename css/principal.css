@@ -8,7 +8,7 @@ video {
 }
 
 body {
-    background-image: url("../img/fondo-tile.jpg");
+    background-image: url("/img/fondo-tile.jpg");
     background-repeat: repeat;
     background-size: 640px 643px;
     animation-name: fondo;
@@ -24,6 +24,15 @@ body {
     font-size: 20px;
 }
 
+#logoNavBar{
+    height: 40px;
+}
+
+#enlaceCC{
+    color: rgb(59, 199, 255);
+    text-decoration: none !important;
+}
+
 @keyframes fondo {
     0% {
         background-position-y: 0px;
@@ -31,14 +40,4 @@ body {
     100% {
         background-position-y: 643px;
     }
-}
-
-@font-face {
-    font-family: MKDS;
-    src: url("../Mario-Kart-DS.woff");
-}
-
-@font-face {
-    font-family: mkds2;
-    src: url("../mario_kart_f2.woff");
 }

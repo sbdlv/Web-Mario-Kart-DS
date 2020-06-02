@@ -58,10 +58,10 @@ function consultarCopa(copa) {
         thumb.classList.add("imagenCircuito");
         thumb.classList.add("ml-4");
         thumb.classList.add("mr-4");
-        thumb.classList.add("pt-md-0");
-        thumb.classList.add("pb-md-0");
-        thumb.classList.add("pt-sm-2");
-        thumb.classList.add("pb-sm-2");
+        thumb.classList.add("pt-md-1");
+        thumb.classList.add("pb-md-1");
+        thumb.classList.add("pt-2");
+        thumb.classList.add("pb-2");
         
 
         thumb.setAttribute("src", RUTA_IMAGENES_CIRCUITOS + imagen);

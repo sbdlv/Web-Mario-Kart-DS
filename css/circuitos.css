@@ -17,28 +17,28 @@
 }
 
 #btnChampiñon{
-    background-image: url("../img/Copas/MKDS_Mushroom_Cup_Emblem.png");
+    background-image: url("/img/Copas/MKDS_Mushroom_Cup_Emblem.png");
 }
 #btnFlor{
-    background-image: url("../img/Copas/MKDS_Flower_Cup_Icon.png");
+    background-image: url("/img/Copas/MKDS_Flower_Cup_Icon.png");
 }
 #btnEstrella{
-    background-image: url("../img/Copas/MKDS_Star_Cup_Emblem.png");
+    background-image: url("/img/Copas/MKDS_Star_Cup_Emblem.png");
 }
 #btnEspecial{
-    background-image: url("../img/Copas/MKDS_Special_Cup_Emblem.png");
+    background-image: url("/img/Copas/MKDS_Special_Cup_Emblem.png");
 }
 #btnCaparazon{
-    background-image: url("../img/Copas/MKDS_Shell_Cup_Emblem.png");
+    background-image: url("/img/Copas/MKDS_Shell_Cup_Emblem.png");
 }
 #btnPlatano{
-    background-image: url("../img/Copas/MKDS_Banana_Cup_Emblem.png");
+    background-image: url("/img/Copas/MKDS_Banana_Cup_Emblem.png");
 }
 #btnHoja{
-    background-image: url("../img/Copas/MKDS_Leaf_Cup_Emblem.png");
+    background-image: url("/img/Copas/MKDS_Leaf_Cup_Emblem.png");
 }
 #btnCentella{
-    background-image: url("../img/Copas/MKDS_Lightning_Cup_Emblem.png");
+    background-image: url("/img/Copas/MKDS_Lightning_Cup_Emblem.png");
 }
 
 .imagenCircuito{

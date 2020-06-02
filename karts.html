@@ -15,7 +15,7 @@
 
 <body class="h-100">
     <nav class="navbar navbar-expand-sm">
-        <img class="navbar-brand" src="img/mkds_logo.svg" style="height: 40px;" alt="">
+        <a href="index.html"><img class="navbar-brand" src="img/mkds_logo.svg" id="logoNavBar" alt="Logo Mario Kart DS"></a>
         <ul class="navbar-nav ml-auto ">
             <li class="nav-item">
                 <a href="index.html" class="nav-link">INICIO</a>
@@ -32,36 +32,36 @@
     <div class="container-fluid">
         <div class="row p-5">
             <!--Personajes-->
-            <div class="col-lg-4 col-xs-12">
+            <div class="col-lg-4 col-xs-12 pb-4 pb-md-0">
                 <h2 class="kartSeccion">PERSONAJES</h2>
-                <div class="row mx-auto">
+                <div class="row mx-auto ">
                     <button id="btnPMario" class="btnPersonaje m-2"  value="Mario"></button>
-                    <button href="" id="btnPLuigi" class="btnPersonaje  m-2"  value="Luigi"></button>
-                    <button href="" id="btnPPeach" class="btnPersonaje  m-2"  value="Peach"></button>
-                    <button href="" id="btnPWario" class="btnPersonaje  m-2"  value="Wario"></button>
-                    <button href="" id="btnPWaluigi" class="btnPersonaje  m-2"  value="Waluigi"></button>
-                    <button href="" id="btnPHuesitos" class="btnPersonaje  m-2"  value="Dry Bones"></button>
-                    <button href="" id="btnPShyGuy" class="btnPersonaje  m-2"  value="Shy Guy"></button>
-                    <button href="" id="btnPBowser" class="btnPersonaje  m-2"  value="Bowser"></button>
-                    <button href="" id="btnPDonkeyKong" class="btnPersonaje  m-2"  value="Donkey Kong"></button>
-                    <button href="" id="btnPDaisy" class="btnPersonaje  m-2"  value="Daisy"></button>
-                    <button href="" id="btnPYoshi" class="btnPersonaje  m-2"  value="Yoshi"></button>
-                    <button href="" id="btnPToad" class="btnPersonaje  m-2"  value="Toad"></button>
-                    <button href="" id="btnPROB" class="btnPersonaje  m-2"  value="ROB"></button>
+                    <button id="btnPLuigi" class="btnPersonaje m-2"  value="Luigi"></button>
+                    <button id="btnPPeach" class="btnPersonaje m-2"  value="Peach"></button>
+                    <button id="btnPWario" class="btnPersonaje m-2"  value="Wario"></button>
+                    <button id="btnPWaluigi" class="btnPersonaje m-2"  value="Waluigi"></button>
+                    <button id="btnPHuesitos" class="btnPersonaje m-2"  value="Dry Bones"></button>
+                    <button id="btnPShyGuy" class="btnPersonaje m-2"  value="Shy Guy"></button>
+                    <button id="btnPBowser" class="btnPersonaje m-2"  value="Bowser"></button>
+                    <button id="btnPDonkeyKong" class="btnPersonaje m-2"  value="Donkey Kong"></button>
+                    <button id="btnPDaisy" class="btnPersonaje m-2"  value="Daisy"></button>
+                    <button id="btnPYoshi" class="btnPersonaje m-2"  value="Yoshi"></button>
+                    <button id="btnPToad" class="btnPersonaje m-2"  value="Toad"></button>
+                    <button id="btnPROB" class="btnPersonaje m-2"  value="ROB"></button>
                 </div>
             </div>
             <!--KARTS Y 3D-->
             <div class="col-md-12 col-lg-8">
                 <div class="row mx-auto">
                     <!--Karts-->
-                    <div class="col-xs-12 col-md-4">
+                    <div class="col-xs-12 col-md-4 pb-4 pb-md-0">
                         <h2 class="kartSeccion">KARTS</h2>
                         <div class="col-12 mx-auto" id="karts">
                         </div>
                     </div>
                     <!--3D-->
-                    <div class="col-xs-12 col-lg-8">
-                        <h2 class="kartSeccion">PREVIEW</h2>
+                    <div class="col-xs-12 col-lg-8 pb-4 pb-md-0">
+                        <h2 class="kartSeccion">3D</h2>
                         <div class="col-12" id="visor3D">
                             <canvas id="render3D" class="mx-auto d-block mt-0 mb-3"></canvas>
                         </div>
@@ -162,10 +162,11 @@
             </div>
         </div>
     </div>
-</body>
 <script src="js/karts.js"></script>
 <script src="js/babylon.js"></script>
 <script src="js/babylon.glTF2FileLoader.min.js"></script>
 <script src="js/3d.js"></script>
+
+</body>
 
 </html>
