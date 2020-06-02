@@ -61,3 +61,11 @@
 #descripcionCircuito{
     font-size: 18px;
 }
+
+#contenedorReproductor{
+    position: fixed;
+    bottom: 0;
+}
+#reproductor{
+    visibility: hidden;
+}

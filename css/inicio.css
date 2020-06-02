@@ -44,7 +44,7 @@
     border: 2px solid rgba(255, 255, 255, 0.4);
     padding: 20px;
     transition: background-color 0.5s;
-    text-decoration: none;
+    text-decoration: none !important; /**/
     color: white;
 }
 

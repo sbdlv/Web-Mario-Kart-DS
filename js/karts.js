@@ -1,36 +1,20 @@
 const RUTA_XML_KARTS = "xml/karts.xml";
-//<Barras de valores>
-var velocidad = document.getElementById("vvelocidad");
-var aceleracion = document.getElementById("vaceleracion");
-var peso = document.getElementById("vpeso");
-var manejo = document.getElementById("vmanejo");
-var drift = document.getElementById("vdrift");
-var items = document.getElementById("vitems");
+//Barras de valores
+const BARRA_VELOCIDAD = document.getElementById("vvelocidad");
+const BARRA_ACELERACION = document.getElementById("vaceleracion");
+const BARRA_PESO = document.getElementById("vpeso");
+const BARRA_MANEJO = document.getElementById("vmanejo");
+const BARRA_DRIFT = document.getElementById("vdrift");
+const BARRA_ITEMS = document.getElementById("vitems");
 
-var seccionKarts = document.getElementById("karts"); //Div donde se añaden las imagenes de los karts
+const SECCION_KARTS = document.getElementById("karts"); //Div donde se añaden las imagenes de los karts
 var kartSeleccionado;
+var botonesPersonajes = document.getElementsByClassName("btnPersonaje");
 
-/*
-function ajustarIframe() {
-    var iFrameID = document.getElementById('iframeKarts');
-    if (iFrameID) {
-        // here you can make the height, I delete it first, then I make it again
-        console.log("Iframe");
-        console.log(iFrameID.contentWindow.document.body.scrollHeight);
-
-        iFrameID.height = "";
-        iFrameID.style.height = iFrameID.contentWindow.document.body.scrollHeight + "px";
+for (let boton of botonesPersonajes){
+    boton.onclick = function(){
+        consultarPersonaje(event.target.value);
     }
-}*/
-
-/**
- * 
- * @param {*} event 
- */
-function cambiarPersonaje(event) {
-    let nombre = event.target.value;
-    consultarPersonaje(nombre);
-
 }
 
 /**
@@ -44,12 +28,12 @@ function cargarKart(kart) {
 
         kartSeleccionado = kart;
         //Barras valores
-        velocidad.style.width = kartSeleccionado.velocidad + "%";
-        aceleracion.style.width = kartSeleccionado.aceleracion + "%";
-        peso.style.width = kartSeleccionado.peso + "%";
-        manejo.style.width = kartSeleccionado.manejo + "%";
-        drift.style.width = kartSeleccionado.drift + "%";
-        items.style.width = kartSeleccionado.items + "%";
+        BARRA_VELOCIDAD.style.width = kartSeleccionado.velocidad + "%";
+        BARRA_ACELERACION.style.width = kartSeleccionado.aceleracion + "%";
+        BARRA_PESO.style.width = kartSeleccionado.peso + "%";
+        BARRA_MANEJO.style.width = kartSeleccionado.manejo + "%";
+        BARRA_DRIFT.style.width = kartSeleccionado.drift + "%";
+        BARRA_ITEMS.style.width = kartSeleccionado.items + "%";
 
         //3D
         createScene(kartSeleccionado.nombre); //Llamada a 3d.js
@@ -97,7 +81,7 @@ xhttp.send();
  * @param {String} nombre El nombre del personaje a consultar.
  */
 function consultarPersonaje(nombre) {
-    seccionKarts.innerHTML = ""; //Resetear el div karts
+    SECCION_KARTS.innerHTML = ""; //Resetear el div karts
     let path = "karts/kart[propietario='" + nombre + "']"; //Path para sacar los karts del personaje
     var nodes = datosXML.evaluate(path, datosXML, null, XPathResult.ANY_TYPE, null);
     var result = nodes.iterateNext(); //Ponemos el puntero en el primero resultado.
@@ -115,7 +99,7 @@ function consultarPersonaje(nombre) {
             cargarKart(kart);
         }
         result = nodes.iterateNext(); //Siguiente resultado
-        seccionKarts.appendChild(thumb);
+        SECCION_KARTS.appendChild(thumb);
     }
 }
 
