@@ -4,5 +4,4 @@ Repositorio para la web de **Mario Kart DS**.
 La página tiene información sobre:
 
  - Karts
- - Personajes (WIP)
- - Circuitos (WIP)
+ - Circuitos

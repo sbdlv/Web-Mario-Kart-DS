@@ -68,4 +68,9 @@
 }
 #reproductor{
     visibility: hidden;
+    opacity: 75%;
+    transition: opacity 0.5s;
+}
+#reproductor:hover{
+    opacity: 100%;
 }

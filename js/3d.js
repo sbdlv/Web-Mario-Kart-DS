@@ -23,11 +23,6 @@ var createScene = function(nombre) {
     camera = new BABYLON.ArcRotateCamera("Camera", Math.PI / 2, 15 * Math.PI / 32, 25, BABYLON.Vector3.Zero(), scene);
     camera.attachControl(canvas, true);
 
-    // Add lights to the scene
-    /*
-    var light1 = new BABYLON.HemisphericLight("light1", new BABYLON.Vector3(1, 1, 0), scene);
-    var light2 = new BABYLON.PointLight("Omni0", new BABYLON.Vector3(0, 1, -1), scene);*/
-
 
     //GLB modelo
     test = BABYLON.SceneLoader.Append("karts/" + nombre + "/", nombre + ".glb", scene, function(miModelo) {

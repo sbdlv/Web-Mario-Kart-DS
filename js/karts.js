@@ -22,8 +22,9 @@ for (let boton of botonesPersonajes){
  * @param {Kart} kart 
  */
 function cargarKart(kart) {
-    //Para evitar vovler a cargar un mismo modelo
-    if (kartSeleccionado != kart) {
+    //Para evitar vovler a cargar un mismo modelo. La primera vez la var kartSeleccionado sera null, por lo que se permitira cargar el modelo
+    
+    if (kartSeleccionado == null || kartSeleccionado.nombre != kart.nombre) {
         console.log("Cargando coche");
 
         kartSeleccionado = kart;
