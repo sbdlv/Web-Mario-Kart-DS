@@ -1,4 +1,4 @@
-const RUTA_XML_KARTS = "xml/karts.xml";
+const RUTA_XML_KARTS = "/xml/karts.xml";
 //Barras de valores
 const BARRA_VELOCIDAD = document.getElementById("vvelocidad");
 const BARRA_ACELERACION = document.getElementById("vaceleracion");

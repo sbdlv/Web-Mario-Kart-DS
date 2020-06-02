@@ -1,8 +1,8 @@
 const RUTA_XML_CIRCUITOS = "/xml/circuitos.xml";
-const seccionCircuitos = document.getElementById("seccionCircuitos");
+const SECCION_CIRCUITOS = document.getElementById("seccionCircuitos");
 const PATH_XML_COPA = "circuitos/circuito[copa='"
 const PATH_XML_CIRCUITO = "circuitos/circuito[nombre='"
-const RUTA_IMAGENES_CIRCUITOS = "/img/circuitos/"
+const RUTA_IMAGENES_CIRCUITOS = "/img/Circuitos/"
 const RUTA_MUSICA_CIRCUITOS = "/audio/"
 const REPRODUCTOR = document.getElementById("reproductor");
 
@@ -20,7 +20,6 @@ for (let boton of botonesCopas) {
 
     }
 }
-
 
 //XML
 //Realizar peticion de los datos XML
@@ -45,7 +44,7 @@ class Circuito {
 }
 
 function consultarCopa(copa) {
-    seccionCircuitos.innerHTML = ""; //Resetear el div de circuitos
+    SECCION_CIRCUITOS.innerHTML = ""; //Resetear el div de circuitos
     let path = PATH_XML_COPA + copa + "']"; //Path para sacar los karts del personaje
     var nodes = datosXML.evaluate(path, datosXML, null, XPathResult.ANY_TYPE, null);
     var result = nodes.iterateNext(); //Ponemos el puntero en el primero resultado.
@@ -76,7 +75,7 @@ function consultarCopa(copa) {
             event.target.classList.add("imagenCircuitoActiva");
         }
         result = nodes.iterateNext(); //Siguiente resultado
-        seccionCircuitos.appendChild(thumb);
+        SECCION_CIRCUITOS.appendChild(thumb);
     }
 }
 
