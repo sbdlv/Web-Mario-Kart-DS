@@ -1,6 +1,7 @@
 /* Los !important son para sobreescribir valores de boostrap*/
 html{
     scroll-behavior: smooth;
+    scrollbar-color: gray #222;
 }
 video {
     width: 70%;

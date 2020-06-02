@@ -9,6 +9,7 @@
             
             En Super Smash Bros. Brawl y Super Smash Bros. para Wii U, hay un nivel temático de Mario Kart titulado "Mario Circuit" que tiene un diseño similar al Circuito en 8. El escenario vuelve a aparecer bajo el nombre de "Circuito de figura 8" en Super Smash Bros. Ultimate.</descripcion>
         <imagen>MKDS_Figure_8_Circuit_Course_Icon.png</imagen>
+        <musica>MKDS-Music-CircuitTheme.oga</musica>
     </circuito>
     <circuito>
         <copa>Champiñón</copa>
@@ -19,6 +20,7 @@
             
             Yoshi Falls es uno de los cursos más cortos en Mario Kart DS, junto con otras pistas bastante cortas como GCN Baby Park, N64 Moo Moo Farm, GBA Peach Circuit y SNES Mario Circuit 1. Es el curso de nitro más corto del juego. La descripción general de la pista es bastante similar a Luigi Circuit de Mario Kart Wii.</descripcion>
         <imagen>MKDS_Yoshi_Falls_Course_Icon.png</imagen>
+        <musica>MKDS-Music-YoshiFalls.oga</musica>
     </circuito>
     <circuito>
         <copa>Champiñón</copa>
@@ -30,12 +32,16 @@
             Las misiones 1-4 y 2-5 se llevan a cabo en este circuito.
             </descripcion>
         <imagen>MKDS_Cheep_Cheep_Beach_Course_Icon.png</imagen>
+        <musica>MKDS-Music-CheepCheepBeach.oga</musica>
     </circuito>
     <circuito>
         <copa>Champiñón</copa>
         <nombre>Mansión de Luigi</nombre>
-        <descripcion>MKDS_Luigi's_Mansion_Course_Icon.png</descripcion>
+        <descripcion>Luigi's Mansion es la última carrera de la Copa Mushroom en el juego Mario Kart DS. Fuera de la mansión se encuentra Boo Woods, que tiene un cementerio que rodea la mansión y más allá, un pantano de barro con árboles en movimiento. Cuando un personaje se topa con uno de estos árboles, en lugar de girar o darse la vuelta, el personaje se quedará atrapado en el árbol como si fuera una pared.
+
+            Los corredores comienzan afuera de la mansión en una sección de Boo Woods, y atravesarán un camino curvo hasta la entrada de la mansión, corriendo a lo largo de un pasillo estrecho que conduce a los corredores hacia abajo a una habitación debajo del vestíbulo. Se pueden ver varios retratos de Portrait Ghosts de Luigi's Mansion colgados en las paredes. Luego, los corredores salen de la mansión, cruzan un túnel de camino de piedra, donde llegan al cementerio, dejando la mansión. Finalmente, los corredores terminan cruzando el pantano para cruzar meta.</descripcion>
         <imagen>MKDS_Luigi's_Mansion_Course_Icon.png</imagen>
+        <musica>MKDS-Music-Luigi'sMansion.oga</musica>
     </circuito>
 
     <circuito>
@@ -47,6 +53,7 @@
             
             El curso vuelve a aparecer como un curso retro en Mario Kart Wii. En ese juego es la primera pista de carreras de la Leaf Cup. Se rehizo con gráficos mejorados, como los otros circuitos de Mario Kart DS en Mario Kart Wii.</descripcion>
         <imagen>MKDS_Desert_Hills_Course_Icon.png</imagen>
+        <musica>MKDS-Music-DesertHills.oga</musica>
     </circuito>
     <circuito>
         <copa>Flor</copa>
@@ -57,6 +64,7 @@
             
             Delfino Square reaparece en Mario Kart Wii en la Banana Cup, con el diseño y la música exactamente igual, pero con gráficos actualizados.</descripcion>
         <imagen>MKDS_Delfino_Square_Course_Icon.png</imagen>
+        <musica>MKDS-Music-DelfinoSquare.oga</musica>
     </circuito>
     <circuito>
         <copa>Flor</copa>
@@ -68,6 +76,7 @@
 Mientras los corredores están en el lanzador de pinball, son inmunes a todos los artículos, incluido Lightning. Más adelante en la pista, dentro del área de pinball, hay aletas y parachoques. Los parachoques empujan y aceleran a los conductores, pero las aletas, cuando se mueven, pueden hacer que se electrocuten y giren. Esta es la pista Nitro más larga del juego.
         </descripcion>
         <imagen>MKDS_Waluigi_Pinball_Course_Icon.png</imagen>
+        <musica>MKDS-Music-WaluigiPinball.oga</musica>
     </circuito>
     <circuito>
         <copa>Flor</copa>
@@ -79,156 +88,238 @@ Mientras los corredores están en el lanzador de pinball, son inmunes a todos lo
             Shroom Ridge es el primer circuito en tener autos que se mueven en direcciones opuestas, en oposición a la misma dirección que en todas las carreras con vehiculos npc.
             </descripcion>
         <imagen>MKDS_Shroom_Ridge_Course_Icon.png</imagen>
+        <musica>MKDS-Music-ShroomRidge.oga</musica>
     </circuito>
 
     <circuito>
         <copa>Estrella</copa>
         <nombre>DK Alpino</nombre>
-        <descripcion></descripcion>
+        <descripcion>DK Pass es el primer circuito de la Star Cup en Mario Kart DS, el segundo de la Leaf Cup en Mario Kart 7, y en varias tours en Mario Kart Tour. 
+
+            Como su nombre lo indica, el circuito es propiedad de Donkey Kong a pesar de que no aparecen personajes de la serie Donkey Kong.</descripcion>
         <imagen>MKDS_DK_Pass_Course_Icon.png</imagen>
+        <musica>MKDS-Music-DKPass.oga</musica>
     </circuito>
     <circuito>
         <copa>Estrella</copa>
         <nombre>Reloj Tic-Tac</nombre>
-        <descripcion></descripcion>
+        <descripcion>Tick-Tock Clock es el segundo cirucito de la Star Cup en Mario Kart DS. Está inspirado en el nivel Tick Tock Clock de Super Mario 64 y remake, con suelos de malla similares y el conocido péndulo amarillo. 
+
+            Se lleva a cabo dentro de un reloj de pie gigante con engranajes, péndulos y manecillas en movimiento.</descripcion>
         <imagen>MKDS_Tick-Tock_Clock_Course_Icon.png</imagen>
+        <musica>MKDS-Music-TickTockClock.oga</musica>
     </circuito>
     <circuito>
         <copa>Estrella</copa>
         <nombre>Circuito Mario</nombre>
-        <descripcion></descripcion>
+        <descripcion>Mario Circuit es el tercer circuito de carreras en la Star Cup en Mario Kart DS. En el cirucito aparecen enemigos que actúan como obstáculos: los Goombas aparecen cruzando la carretera desde los lados. Al dispararles una caparzon verde o una caparazon rojo, o usar una estrella, los Goombas dropearan setas de impulso. 
+
+            En una parte del ciruicot hay un par de plantas de piraña escupen bolas de fuego en el campo. Si el jugador entra en contacto con una de estas bolas, se saldrá de control. 
+            
+            Las plantas de piraña, como se ve en Mario Kart 64, también están presentes. Esta pista comparte su música con la de Circuito en 8.</descripcion>
         <imagen>MKDS_Mario_Circuit_Course_Icon.png</imagen>
+        <musica>MKDS-Music-CircuitTheme.oga</musica>
     </circuito>
     <circuito>
         <copa>Estrella</copa>
         <nombre>Fortaleza Aérea</nombre>
-        <descripcion></descripcion>
+        <descripcion>Airship Fortress es el cuarto y último circuito de la Star Cup en Mario Kart DS. El circuito tiene lugar tanto en una fortaleza flotante en mal estado como en una aeronave.
+
+            El circuito está inspirado en el entorno de los niveles de jefes vistos en Super Mario Bros.3 y Super Mario World. Se pueden ver otras aeronaves volando en el cielo.
+           
+           La característica más notable en el circuito es el cañón tuberia que dispara a los jugadores a la fortaleza por el aire. Además, la pista incluye obstáculos como Bullet Bills, Rocky Wrenches y más. Las misiones 6-2 y 7-7 tienen lugar en este circuito.</descripcion>
         <imagen>MKDS_Airship_Fortress_Course_Icon.png</imagen>
+        <musica>MKDS-Music-AirshipFortress.oga</musica>
     </circuito>
 
     <circuito>
         <copa>Especial</copa>
         <nombre>Estadio Wario</nombre>
-        <descripcion></descripcion>
+        <descripcion>Wario Stadium es el primer cirucito de la Copa Especial en Mario Kart DS. La introduccion tiene su propia música en el Grand Prix de un solo jugador, y la versión remix para de tres Copas. El circuito contiene numerosos charcos de barro, speed-boosters, saltos, giros y bolas de fuego. 
+
+            Esta versión recuerda más al Waluigi Stadium que su contraparte de Nintendo 64 y comparte la misma música que Waluigi Pinball. Regresa como el primer curso de la Leaf Cup en Mario Kart 8 y Mario Kart 8 Deluxe, por lo que es el primer curso retro con temática de Wario.</descripcion>
         <imagen>MKDS_Wario_Stadium_Course_Icon.png</imagen>
+        <musica>MKDS-Music-WaluigiPinball.oga</musica>
     </circuito>
     <circuito>
         <copa>Especial</copa>
         <nombre>Jardín de Peach</nombre>
-        <descripcion></descripcion>
+        <descripcion>Peach Gardens es el segundo circuito de la Copa Especial en Mario Kart DS. El circuito está ubicado en los jardines de una gran finca que tiene un diseño similar al Castillo de Peach. Los obstáculos en el circuito incluyen Chain Chomps y Monty Moles, ambos capaces de atacar al jugador. 
+
+        El circuito a menudo está bloqueado por grandes setos que no se pueden atravesar y parches de hierba que ralentizan a los jugadores. Sin embargo, un acelerador de velocidad como una seta o una estrella se puede utilizar para cruzar la hierba y suarla como atajo
+        
+        Peach Gardens reapareció en Mario Kart Wii como el segundo cirvuito en la Lightning Cup. ></descripcion>
         <imagen>MKDS_Peach_Gardens_Course_Icon.png</imagen>
+        <musica>MKDS-Music-PeachGardens.oga</musica>
     </circuito>
     <circuito>
         <copa>Especial</copa>
         <nombre>Castillo de Bowser</nombre>
-        <descripcion></descripcion>
+        <descripcion>Bowser Castle en Mario Kart DS es la penúltima pista en la Copa Especial, antes de Rainbow Road y después de Peach Gardens. Está fuertemente basado en los Castillos de Bowser en Mario Kart 64 y Mario Kart: Super Circuit, pero con las piedras color canela reemplazadas por ladrillos grises, y los caminos de piedra han sido reemplazados por rejas y plataformas de metal. 
+
+            En el fondo hay un bosque formado por árboles muertos y montañas oscuras, así como un ardiente cielo anaranjado. Cuenta con pocos elementos dinamicos, pero algunos de ellos son un puente cilíndrico giratorio, una pequeña cámara con piso giratorio y cuatro plataformas móviles sobre una porción de un gran pozo de lava. 
+            
+            La entrada al castillo es muy similar a la de las verisones anteriores. </descripcion>
         <imagen>MKDS_Bowser_Castle_Course_Icon.png</imagen>
+        <musica>MKDS-Music-BowserCastle.oga</musica>
     </circuito>
     <circuito>
         <copa>Especial</copa>
         <nombre>Senda Arco Iris</nombre>
-        <descripcion></descripcion>
+        <descripcion>A diferencia de las versiones anteriores, este Rainbow Road es exclusivo de la serie Mario Kart, ya que contiene un bucle vertical y un tirabuzón, las únicas inversiones en una pista de Mario Kart antes de Mario Kart 8. Los rieles bordean los lados de ambas inversiones para evitar que los corredores se caigan al vacio. 
+
+            Los jugadores pueden colocar elementos para que sus oponentes puedan caerse del tirabuzon o del bucle. Además, si un jugador se desvía y golpea la barandilla o continúa tocando la barandilla, podría hacer que el jugador flote hacia arriba, sacándolo de la pista (aunque en casos excepcionales, el jugador puede caer sobre el tirabuzón sin volver a la parte correcta de la pista) .</descripcion>
         <imagen>MKDS_Rainbow_Road_Course_Icon.png</imagen>
+        <musica>MKDS-Music-RainbowRoad.oga</musica>
     </circuito>
 
     <circuito>
         <copa>Caparazón</copa>
         <nombre>SNES Circuito Mario 1</nombre>
-        <descripcion></descripcion>
+        <descripcion>Mario Circuit 1 es el primer circuito de la Mushroom Cup en Super Mario Kart y, como tal, el primer circuito de la serie Mario Kart en general. Más tarde se reutilizó como el primer circuito extra en Mario Kart: Super Circuit y el primer circuito retro en Mario Kart DS, siendo el primer circuito retro de la serie. Más tarde reaparece como un circuito recurrente en Mario Kart Tour, apareciendo por primera vez en el Tour de Nueva York.
+
+            El único peligro en este nivel son las tuberías de deformación que aparecen cerca de la segunda curva del circuito. Después de que el jugador pasa las tuberías, se encuentra el único conjunto de cajas aleatorias en todo el circuito. 
+            
+            También hay un atajo que un corredor puede tomar conduciendo a través de la tierra justo después de pasar las cajas aleatorias. El jugador necesita una seta o una estrella para implementar con éxito el atajo sin disminuir la velocidad. Sin embargo, tomar el atajo sin un elemento no lleva más tiempo que si se siguiera el circuito de foraml normal.</descripcion>
         <imagen>MKDS_SNES_Mario_Circuit_1_Course_Icon.png</imagen>
+        <musica>MKDS-Music-SNES-MarioCircuit1.oga</musica>
     </circuito>
     <circuito>
         <copa>Caparazón</copa>
         <nombre>N64 Granja Mu-Mu</nombre>
-        <descripcion></descripcion>
+        <descripcion>Moo Moo Farm es la segunda carrera de la Copa de Hongos en Mario Kart 64. Este circuito tiene lugar en una granja, con Monty Moles y Moo Moos. Al igual que todos los circuitos de Mushroom Cup, este circuito es relativamente simple y es el circuito más corto del juego, que mide 527 metros. 
+
+            Más tarde reaparece como una pista retro de la Shell Cup en Mario Kart DS, y la pista de Mario Kart Wii Moo Moo Meadows tiene un gran parecido. Este circuito comparte su música con el Valle de Yoshi.</descripcion>
         <imagen>MKDS_N64_Moo_Moo_Farm_Course_Icon.png</imagen>
+        <musica>MKDS-Music-N64-MooMooFarm.oga</musica>
     </circuito>
     <circuito>
         <copa>Caparazón</copa>
         <nombre>GBA Circuito Peach</nombre>
-        <descripcion></descripcion>
+        <descripcion>Peach Circuit es el primer circuito de la Mushroom Cup en Mario Kart: Super Circuit, y reaparece como un circuito retro en Mario Kart DS. El castill ode peach aparece en el fondo de este circuito. La canción del circuito es la misma que la música del Circuito de Mario y el circuito de Luigi.</descripcion>
         <imagen>MKDS_GBA_Peach_Circuit_Course_Icon.png</imagen>
+        <musica>MKDS-Music-GBA-Circuit.oga</musica>
     </circuito>
     <circuito>
         <copa>Caparazón</copa>
         <nombre>GCN Circuito de Luigi</nombre>
-        <descripcion></descripcion>
+        <descripcion>Luigi Circuit es la primera carrera de la Copa de Champiñones y el Tour de la Copa en Mario Kart: ¡¡¡¡¡Double Dash !!. La pista es tiene forma alargada de ocho con rampas en las curvas. Debido a esto, los corredores pueden ver a otros corredores subiendo por la pista mientras bajan. 
+
+            Para evitar hacer trampas en el circuito, los conductores deben pasar por el panel de control en ambas rampas para completar una vuelta. Un Chain Chomp se encuentra en la entrada de la primera curva, y este acerca a la carretera a menudo para lanzar los karts que están muy cerca de ella. La musica de este circuito se comparte con la de Mario Circuit y Yoshi Circuit.</descripcion>
         <imagen>MKDS_GCN_Luigi_Circuit_Course_Icon.png</imagen>
+        <musica>MKDS-Music-GCN-Circuit.oga</musica>
     </circuito>
 
     <circuito>
         <copa>Plátano</copa>
         <nombre>SNES Prado Rosquilla 1</nombre>
-        <descripcion></descripcion>
+        <descripcion>Donut Plains 1 es el segundo circuito de la Mushroom Cup de Super Mario Kart. Más tarde se reutilizó en Mario Kart: Super Circuit como la segunda pista en la Copa Extra Mushroom, en Mario Kart DS como la primera pista en la Copa Banana, y el circuito destacado del Hammer Bro Tour en Mario Kart Tour.</descripcion>
         <imagen>MKDS_SNES_Donut_Plains_1_Course_Icon.png</imagen>
+        <musica>MKDS-Music-SNES-DonutPlains1.oga</musica>
     </circuito>
     <circuito>
         <copa>Plátano</copa>
         <nombre>N64 Circuito Nevado</nombre>
-        <descripcion></descripcion>
+        <descripcion>Frappe Snowland es una pista de carreras, que aparece primero como la segunda pista de la Flower Cup de Mario Kart 64 en la Nintendo 64, luego regresa como un circuito en los Retro Courses en Mario Kart DS como la segunda pista de la Banana Cup, y en varios tours en Mario Kart Tour (primera aparición en el Ice Tour). 
+
+            Se lleva a cabo en una región de colinas suavemente nevadas. Sus obstáculos incluyen muchos muñecos de nieve repartidos por los bordes del recorrido. También hay una estatua gigante de nieve de Mario y una de Yoshi. Este circuito comparte su música con Sherbet Land. </descripcion>
         <imagen>MKDS_N64_Frappe_Snowland_Course_Icon.png</imagen>
+        <musica>MKDS-Music-N64-FrappeSnowland.oga</musica>
     </circuito>
     <circuito>
         <copa>Plátano</copa>
         <nombre>GBA Castillo de Bowser 2</nombre>
-        <descripcion></descripcion>
+        <descripcion>Bowser Castle 2 es el cuarto circuito de la Flower Cup en Mario Kart: Super Circuit. Sus obstáculos son Thwomps que caen y finos huecos rectangulares en el suelo que hacen que los conductores caigan en la lava. La pista también es notable por sus rampas de salto; similar a los encontrados en las nuevas entregas (después de Mario Kart DS) que permite a los corredores realizar trucos. 
+            
+            Una gran estatua de Bowser se puede ver en el fondo.</descripcion>
         <imagen>MKDS_GBA_Bowser_Castle_2_Course_Icon.png</imagen>
+        <musica>MKDS-Music-GBA-BowserCastle2.oga</musica>
     </circuito>
     <circuito>
         <copa>Plátano</copa>
         <nombre>GCN Parque Bebé </nombre>
-        <descripcion></descripcion>
+        <descripcion>Baby Park es un circuito perteneciente a Baby Mario y Baby Luigi que ha aparecido en Mario Kart: Double Dash !!, Mario Kart DS, Mario Kart 8 como parte del Animal Crossing × Mario Kart 8 DLC Pack y Mario Kart 8 Deluxe . 
+
+            Al ser un circuito oval simple sin riesgos, es el circuito más corto de la serie, excluyendo el circuito "Test Circle" no utilizado que se encuentra en Mario Kart DS y DK Jungle de Mario Kart Arcade GP. Solo toma alrededor de diez segundos para completar un vuelta completa.
+            
+            Como su nombre lo indica, el circuito se lleva a cabo en un parque de diversiones, que incluye varios elementos de la franquicia Yoshi.</descripcion>
         <imagen>MKDS_GCN_Baby_Park_Course_Icon.png</imagen>
+        <musica>MKDS-Music-GCN-BabyPark.oga</musica>
     </circuito>
 
     <circuito>
         <copa>Hoja</copa>
         <nombre>SNES Playa Koopa 2</nombre>
-        <descripcion></descripcion>
+        <descripcion>Koopa Beach 2 es el segundo circuito de la Copa Especial en Super Mario Kart. Posteriormente se reutilizó en Mario Kart: Super Circuit como la primera pista en la Copa Extra Especial y en Mario Kart DS como la primera pista en la Copa Hoja. Se encuentra en un gran banco de arena en medio de un mar azul. Sus obstáculos son parches profundos de agua y Cheep Cheeps rebotando.</descripcion>
         <imagen>MKDS_SNES_Koopa_Beach_2_Course_Icon.png</imagen>
+        <musica>MKDS-Music-SNES-KoopaBeach2.oga</musica>
     </circuito>
     <circuito>
         <copa>Hoja</copa>
         <nombre>N64 Monte Chocolate</nombre>
-        <descripcion></descripcion>
+        <descripcion>Choco Mountain es una circuito que aparece en Mario Kart 64 y Mario Kart DS. Esta pista es el tercer circuito en la Copa Flor y presenta rocas que caen como obstáculos. 
+
+            A mitad de camino, se puede ver una extraña pirámide de chocolate. El circuito vuelve a aparecer en Mario Kart DS en la Leaf Cup. El único cambio es que no aparece ninguna barandilla, lo que hace que sea un poco más difícil completar el circuito.</descripcion>
         <imagen>MKDS_N64_Choco_Mountain_Course_Icon.png</imagen>
+        <musica>MKDS-Music-N64-ChocoMountain.oga</musica>
     </circuito>
     <circuito>
         <copa>Hoja</copa>
         <nombre>GBA Circuito Luigi</nombre>
-        <descripcion></descripcion>
+        <descripcion>Luigi Circuit es una pista única en Mario Kart: Super Circuit. Esta versión tiene la distinción de ser la primera pista de Mario Kart en tener lugar bajo la lluvia, seguida por Neo Bowser City en Mario Kart 7.
+
+            Este circuito es el primero en la Lightning Cup y se establece en lo que parece ser un campo de aviación lleno de charcos de lluvia durante un aguacero, que cuando se pasan por encima hace que los conductores giren y pierdan velocidad. En el fondo hay hangares numerados "64" y "65", que flanquean un torre de radio control. En la tercera vuelta, un dirigible Luigi despega y vuela (el mismo dirigible se puede ver en Sky Garden). El circuito presenta muchas curvas cerradas adecuadas para el drifting, similar a una pista de carreras de karts de la vida real. 
+            
+            La música se comparte con los circuitos de Peach Circuit y Mario Circuit.</descripcion>
         <imagen>MKDS_GCN_Luigi_Circuit_Course_Icon.png</imagen>
+        <musica>MKDS-Music-GBA-Circuit.oga</musica>
     </circuito>
     <circuito>
         <copa>Hoja</copa>
         <nombre>GCN Autopista Champiñón</nombre>
-        <descripcion></descripcion>
+        <descripcion>Mushroom Bridge es un circuito de la serie Mario Kart. Su primera aparición es en Mario Kart: Double Dash !! como el primer circuito de la Flower Cup. Más tarde, el circuito vuelve a aparecer en Mario Kart DS como la pista final de la Copa Hoja. 
+
+            El circuito tiene lugar en una carretera de sentido único cerca de la costa, y los corredores tienen que compartir la pista con vehículos más lentos que casi siempre dañan al jugador cuando es golpeado. La carretera atraviesa el puente de "hongos" que da nombre al circuito. Mushroom City y el Castillo de Peach se pueden ver en el fondo cerca del comienzo del circuito. Este circuito comparte su música con Mushroom City.</descripcion>
         <imagen>MKDS_GCN_Mushroom_Bridge_Course_Icon.png</imagen>
+        <musica>MKDS-Music-GCN-MushroomBridge.oga</musica>
     </circuito>
 
     <circuito>
         <copa>Centella</copa>
         <nombre>SNES Isla Chocolate 2</nombre>
-        <descripcion></descripcion>
+        <descripcion>Isla Chocolate 2 es el segundo circuito de la Star Cup en Super Mario Kart. Posteriormente se reutilizó en Mario Kart: Super Circuit como la cuarta pista en la Copa Extra Lightning y en Mario Kart DS como la primera pista en la Copa Lightning. El circuito esta ubicado en la Isla de chocolate, y cuenta con un gran "lago" de lodo.</descripcion>
         <imagen>MKDS_SNES_Choco_Island_2_Course_Icon.png</imagen>
+        <musica>MKDS-Music-SNES-ChocoIsland2.oga</musica>
     </circuito>
     <circuito>
         <copa>Centella</copa>
         <nombre>N64 Muelle Embrujado</nombre>
-        <descripcion></descripcion>
+        <descripcion>Banshee Boardwalk es la tercera pista de la Copa Especial en Mario Kart 64. Se asemeja a los cirucitos de Ghost Valley de Super Mario Kart, en términos generales, tematica y música.</descripcion>
         <imagen>MKDS_N64_Banshee_Boardwalk_Course_Icon.png</imagen>
+        <musica>MKDS-Music-N64-BansheeBoardwalk.oga</musica>
     </circuito>
     <circuito>
         <copa>Centella</copa>
         <nombre>GBA Jardín Celeste</nombre>
-        <descripcion></descripcion>
+        <descripcion>Sky Garden es la segunda carrera de la Lightning Cup en Mario Kart: Super Circuit. La pista tiene lugar en un camino empedrado sobre las nubes, con puentes que los conectan y tallos de judias dispersos alrededor de las nubes. 
+
+            Este circuito no tiene obstáculos importantes, aunque los jugadores pueden caerse fácilmente.
+            
+            El dirigible de Luigi del circuito de Luigi se puede ver en el fondo.</descripcion>
         <imagen>MKDS_GBA_Sky_Garden_Course_Icon.png</imagen>
+        <musica>MKDS-Music-GBA-SkyGarden.oga</musica>
     </circuito>
     <circuito>
         <copa>Centella</copa>
         <nombre>GCN Circuito Yoshi</nombre>
-        <descripcion></descripcion>
+        <descripcion>Yoshi Circuit es el tercer circuito de la Star Cup en Mario Kart: Double Dash !!.
+
+            El circuito es único en el sentido de que tiene la forma del propio Yoshi, por lo que es la única pista de la serie Mario Kart que tien forma de personaje jugable. Hay muchas curvas, especialmente una muy cerrada en la "cola" de Yoshi. También hay muchas plantas pirañas a los lados de la carretera, que morderan a los jugadores que se acercan demasiado. La música se comparte con Luigi Circuit y Mario Circuit.
+            
+            Reaparece como la cuarta carrera de la Lightning Cup en Mario Kart DS, así como en Mario Kart 8 y Mario Kart 8 Deluxe como el primer circuito en la Egg Cup. También reaparece en varios tours en Mario Kart Tour, apareciendo por primera vez en el tour de Nueva York.</descripcion>
         <imagen>MKDS_GCN_Yoshi_Circuit_Course_Icon.png</imagen>
+        <musica>MKDS-Music-GCN-Circuit.oga</musica>
+
     </circuito>
 
 </circuitos>
